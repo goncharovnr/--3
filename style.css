@@ -3,3 +3,27 @@ h1 {
     color: 555;
     margin-bottom: 250px;
 }
+#content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+#footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: lightgray; /* Цвет фона */
+    color: 555; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+p {
+    text-align: right;
+    font-size: 18px;
+    margin-right: 50px;
+}
+a{
+    font-size: 36px;
+    margin-left: 50px;
+}
+a:hover {
+    color: rgb(24, 156, 233);
+}
